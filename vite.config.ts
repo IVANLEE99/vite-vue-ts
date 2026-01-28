@@ -4,6 +4,7 @@ import { resolve } from "node:path";
 console.log("vite.config.ts loaded ✅");
 
 export default defineConfig({
+  base: "/vite-vue-ts/",
   plugins: [vue()],
   resolve: {
     alias: {
